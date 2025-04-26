@@ -1,0 +1,32 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot kalman_tb_behav xil_defaultlib.kalman_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'matrix_pool' might have multiple concurrent drivers [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:42]
+WARNING: [VRFC 10-3823] variable 'matrix_pool' might have multiple concurrent drivers [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:47]
+WARNING: [VRFC 10-3823] variable 'matrix_pool' might have multiple concurrent drivers [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:53]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv" Line 4. Module kalman_filter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv" Line 1. Module matrix_mult doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_add.sv" Line 1. Module matrix_add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_transpose.sv" Line 1. Module matrix_transpose doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_inverse.sv" Line 1. Module matrix_inverse doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv" Line 4. Module kalman_filter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv" Line 1. Module matrix_mult doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_add.sv" Line 1. Module matrix_add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_transpose.sv" Line 1. Module matrix_transpose doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_inverse.sv" Line 1. Module matrix_inverse doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.matrix_mult
+Compiling module xil_defaultlib.matrix_add
+Compiling module xil_defaultlib.matrix_transpose
+Compiling module xil_defaultlib.matrix_inverse
+Compiling module xil_defaultlib.kalman_filter
+Compiling module xil_defaultlib.kalman_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot kalman_tb_behav

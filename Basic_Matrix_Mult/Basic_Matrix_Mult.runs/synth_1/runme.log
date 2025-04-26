@@ -1,0 +1,1037 @@
+
+*** Running vivado
+    with args -log lu_decomposition_12x12.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lu_decomposition_12x12.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon Apr 21 13:51:37 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source lu_decomposition_12x12.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/utils_1/imports/synth_1/Pipelined_FIR.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/utils_1/imports/synth_1/Pipelined_FIR.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top lu_decomposition_12x12 -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+[libprotobuf ERROR C:\protobuf-3.21.12\protobuf\src\google\protobuf\wire_format_lite.cc:618] String field 'HDMetricDBGroup.name' contains invalid UTF-8 data when parsing a protocol buffer. Use the 'bytes' type if you intend to send raw bytes. 
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 59768
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1021.695 ; gain = 468.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lu_decomposition_12x12' [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'lu_decomposition_12x12' (0#1) [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:1]
+WARNING: [Synth 8-7129] Port A[11][11][15] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][14] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][13] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][12] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][11] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][10] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][9] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][8] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][7] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][6] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][5] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][4] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][3] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][2] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][1] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][11][0] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][15] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][14] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][13] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][12] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][11] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][10] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][9] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][8] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][7] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][6] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][5] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][4] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][3] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][2] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][1] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][10][0] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][15] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][14] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][13] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][12] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][11] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][10] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][9] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][8] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][7] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][6] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][5] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][4] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][3] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][2] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][1] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][9][0] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][15] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][14] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][13] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][12] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][11] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][10] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][9] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][8] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][7] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][6] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][5] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][4] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][3] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][2] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][1] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][8][0] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][15] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][14] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][13] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][12] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][11] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][10] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][9] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][8] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][7] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][6] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][5] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][4] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][3] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][2] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][1] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][7][0] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][15] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][14] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][13] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][12] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][11] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][10] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][9] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][8] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][7] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][6] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][5] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][4] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][3] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][2] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][1] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][6][0] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][5][15] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][5][14] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][5][13] in module lu_decomposition_12x12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11][5][12] in module lu_decomposition_12x12 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1139.270 ; gain = 585.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1139.270 ; gain = 585.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1139.270 ; gain = 585.574
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1139.270 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'A'. [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc:5]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports A]'. [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc:5]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'B'. [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports B]'. [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'C'. [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc:11]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects [get_ports C]'. [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc:11]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/constrs_1/new/mm_constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1230.098 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.120 . Memory (MB): peak = 1230.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1230.098 ; gain = 676.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1230.098 ; gain = 676.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1230.098 ; gain = 676.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/utils_1/imports/synth_1/Pipelined_FIR.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1230.098 ; gain = 676.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1230.098 ; gain = 676.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1230.098 ; gain = 676.402
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 288   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP p_129_out, operation Mode is: C-A*B.
+DSP Report: operator p_129_out is absorbed into DSP p_129_out.
+DSP Report: operator p_0_out is absorbed into DSP p_129_out.
+DSP Report: Generating DSP p_109_out, operation Mode is: C-A*B.
+DSP Report: operator p_109_out is absorbed into DSP p_109_out.
+DSP Report: operator p_0_out is absorbed into DSP p_109_out.
+DSP Report: Generating DSP p_127_out, operation Mode is: C-A*B.
+DSP Report: operator p_127_out is absorbed into DSP p_127_out.
+DSP Report: operator p_0_out is absorbed into DSP p_127_out.
+DSP Report: Generating DSP p_107_out, operation Mode is: C-A*B.
+DSP Report: operator p_107_out is absorbed into DSP p_107_out.
+DSP Report: operator p_0_out is absorbed into DSP p_107_out.
+DSP Report: Generating DSP p_89_out, operation Mode is: C-A*B.
+DSP Report: operator p_89_out is absorbed into DSP p_89_out.
+DSP Report: operator p_0_out is absorbed into DSP p_89_out.
+DSP Report: Generating DSP p_125_out, operation Mode is: C-A*B.
+DSP Report: operator p_125_out is absorbed into DSP p_125_out.
+DSP Report: operator p_0_out is absorbed into DSP p_125_out.
+DSP Report: Generating DSP p_105_out, operation Mode is: C-A*B.
+DSP Report: operator p_105_out is absorbed into DSP p_105_out.
+DSP Report: operator p_0_out is absorbed into DSP p_105_out.
+DSP Report: Generating DSP p_87_out, operation Mode is: C-A*B.
+DSP Report: operator p_87_out is absorbed into DSP p_87_out.
+DSP Report: operator p_0_out is absorbed into DSP p_87_out.
+DSP Report: Generating DSP p_71_out, operation Mode is: C-A*B.
+DSP Report: operator p_71_out is absorbed into DSP p_71_out.
+DSP Report: operator p_0_out is absorbed into DSP p_71_out.
+DSP Report: Generating DSP p_131_out, operation Mode is: C-A*B.
+DSP Report: operator p_131_out is absorbed into DSP p_131_out.
+DSP Report: operator p_0_out is absorbed into DSP p_131_out.
+DSP Report: Generating DSP p_123_out, operation Mode is: C-A*B.
+DSP Report: operator p_123_out is absorbed into DSP p_123_out.
+DSP Report: operator p_0_out is absorbed into DSP p_123_out.
+DSP Report: Generating DSP p_103_out, operation Mode is: C-A*B.
+DSP Report: operator p_103_out is absorbed into DSP p_103_out.
+DSP Report: operator p_0_out is absorbed into DSP p_103_out.
+DSP Report: Generating DSP p_85_out, operation Mode is: C-A*B.
+DSP Report: operator p_85_out is absorbed into DSP p_85_out.
+DSP Report: operator p_0_out is absorbed into DSP p_85_out.
+DSP Report: Generating DSP p_69_out, operation Mode is: C-A*B.
+DSP Report: operator p_69_out is absorbed into DSP p_69_out.
+DSP Report: operator p_0_out is absorbed into DSP p_69_out.
+DSP Report: Generating DSP p_55_out, operation Mode is: C-A*B.
+DSP Report: operator p_55_out is absorbed into DSP p_55_out.
+DSP Report: operator p_0_out is absorbed into DSP p_55_out.
+DSP Report: Generating DSP p_115_out, operation Mode is: C-A*B.
+DSP Report: operator p_115_out is absorbed into DSP p_115_out.
+DSP Report: operator p_0_out is absorbed into DSP p_115_out.
+DSP Report: Generating DSP p_95_out, operation Mode is: C-A*B.
+DSP Report: operator p_95_out is absorbed into DSP p_95_out.
+DSP Report: operator p_0_out is absorbed into DSP p_95_out.
+DSP Report: Generating DSP p_77_out, operation Mode is: C-A*B.
+DSP Report: operator p_77_out is absorbed into DSP p_77_out.
+DSP Report: operator p_0_out is absorbed into DSP p_77_out.
+DSP Report: Generating DSP p_61_out, operation Mode is: C-A*B.
+DSP Report: operator p_61_out is absorbed into DSP p_61_out.
+DSP Report: operator p_0_out is absorbed into DSP p_61_out.
+DSP Report: Generating DSP p_47_out, operation Mode is: C-A*B.
+DSP Report: operator p_47_out is absorbed into DSP p_47_out.
+DSP Report: operator p_0_out is absorbed into DSP p_47_out.
+DSP Report: Generating DSP p_35_out, operation Mode is: C-A*B.
+DSP Report: operator p_35_out is absorbed into DSP p_35_out.
+DSP Report: operator p_0_out is absorbed into DSP p_35_out.
+DSP Report: Generating DSP p_113_out, operation Mode is: C-A*B.
+DSP Report: operator p_113_out is absorbed into DSP p_113_out.
+DSP Report: operator p_0_out is absorbed into DSP p_113_out.
+DSP Report: Generating DSP p_93_out, operation Mode is: C-A*B.
+DSP Report: operator p_93_out is absorbed into DSP p_93_out.
+DSP Report: operator p_0_out is absorbed into DSP p_93_out.
+DSP Report: Generating DSP p_75_out, operation Mode is: C-A*B.
+DSP Report: operator p_75_out is absorbed into DSP p_75_out.
+DSP Report: operator p_0_out is absorbed into DSP p_75_out.
+DSP Report: Generating DSP p_59_out, operation Mode is: C-A*B.
+DSP Report: operator p_59_out is absorbed into DSP p_59_out.
+DSP Report: operator p_0_out is absorbed into DSP p_59_out.
+DSP Report: Generating DSP p_45_out, operation Mode is: C-A*B.
+DSP Report: operator p_45_out is absorbed into DSP p_45_out.
+DSP Report: operator p_0_out is absorbed into DSP p_45_out.
+DSP Report: Generating DSP p_33_out, operation Mode is: C-A*B.
+DSP Report: operator p_33_out is absorbed into DSP p_33_out.
+DSP Report: operator p_0_out is absorbed into DSP p_33_out.
+DSP Report: Generating DSP p_111_out, operation Mode is: C-A*B.
+DSP Report: operator p_111_out is absorbed into DSP p_111_out.
+DSP Report: operator p_0_out is absorbed into DSP p_111_out.
+DSP Report: Generating DSP p_91_out, operation Mode is: C-A*B.
+DSP Report: operator p_91_out is absorbed into DSP p_91_out.
+DSP Report: operator p_0_out is absorbed into DSP p_91_out.
+DSP Report: Generating DSP p_73_out, operation Mode is: C-A*B.
+DSP Report: operator p_73_out is absorbed into DSP p_73_out.
+DSP Report: operator p_0_out is absorbed into DSP p_73_out.
+DSP Report: Generating DSP p_117_out, operation Mode is: C-A*B.
+DSP Report: operator p_117_out is absorbed into DSP p_117_out.
+DSP Report: operator p_0_out is absorbed into DSP p_117_out.
+DSP Report: Generating DSP p_97_out, operation Mode is: C-A*B.
+DSP Report: operator p_97_out is absorbed into DSP p_97_out.
+DSP Report: operator p_0_out is absorbed into DSP p_97_out.
+DSP Report: Generating DSP p_79_out, operation Mode is: C-A*B.
+DSP Report: operator p_79_out is absorbed into DSP p_79_out.
+DSP Report: operator p_0_out is absorbed into DSP p_79_out.
+DSP Report: Generating DSP p_63_out, operation Mode is: C-A*B.
+DSP Report: operator p_63_out is absorbed into DSP p_63_out.
+DSP Report: operator p_0_out is absorbed into DSP p_63_out.
+DSP Report: Generating DSP p_49_out, operation Mode is: C-A*B.
+DSP Report: operator p_49_out is absorbed into DSP p_49_out.
+DSP Report: operator p_0_out is absorbed into DSP p_49_out.
+DSP Report: Generating DSP p_37_out, operation Mode is: C-A*B.
+DSP Report: operator p_37_out is absorbed into DSP p_37_out.
+DSP Report: operator p_0_out is absorbed into DSP p_37_out.
+DSP Report: Generating DSP p_57_out, operation Mode is: C-A*B.
+DSP Report: operator p_57_out is absorbed into DSP p_57_out.
+DSP Report: operator p_0_out is absorbed into DSP p_57_out.
+DSP Report: Generating DSP p_43_out, operation Mode is: C-A*B.
+DSP Report: operator p_43_out is absorbed into DSP p_43_out.
+DSP Report: operator p_0_out is absorbed into DSP p_43_out.
+DSP Report: Generating DSP p_119_out, operation Mode is: C-A*B.
+DSP Report: operator p_119_out is absorbed into DSP p_119_out.
+DSP Report: operator p_0_out is absorbed into DSP p_119_out.
+DSP Report: Generating DSP p_99_out, operation Mode is: C-A*B.
+DSP Report: operator p_99_out is absorbed into DSP p_99_out.
+DSP Report: operator p_0_out is absorbed into DSP p_99_out.
+DSP Report: Generating DSP p_81_out, operation Mode is: C-A*B.
+DSP Report: operator p_81_out is absorbed into DSP p_81_out.
+DSP Report: operator p_0_out is absorbed into DSP p_81_out.
+DSP Report: Generating DSP p_65_out, operation Mode is: C-A*B.
+DSP Report: operator p_65_out is absorbed into DSP p_65_out.
+DSP Report: operator p_0_out is absorbed into DSP p_65_out.
+DSP Report: Generating DSP p_51_out, operation Mode is: C-A*B.
+DSP Report: operator p_51_out is absorbed into DSP p_51_out.
+DSP Report: operator p_0_out is absorbed into DSP p_51_out.
+DSP Report: Generating DSP p_39_out, operation Mode is: C-A*B.
+DSP Report: operator p_39_out is absorbed into DSP p_39_out.
+DSP Report: operator p_0_out is absorbed into DSP p_39_out.
+DSP Report: Generating DSP p_31_out, operation Mode is: C-A*B.
+DSP Report: operator p_31_out is absorbed into DSP p_31_out.
+DSP Report: operator p_0_out is absorbed into DSP p_31_out.
+DSP Report: Generating DSP p_121_out, operation Mode is: C-A*B.
+DSP Report: operator p_121_out is absorbed into DSP p_121_out.
+DSP Report: operator p_0_out is absorbed into DSP p_121_out.
+DSP Report: Generating DSP p_101_out, operation Mode is: C-A*B.
+DSP Report: operator p_101_out is absorbed into DSP p_101_out.
+DSP Report: operator p_0_out is absorbed into DSP p_101_out.
+DSP Report: Generating DSP p_83_out, operation Mode is: C-A*B.
+DSP Report: operator p_83_out is absorbed into DSP p_83_out.
+DSP Report: operator p_0_out is absorbed into DSP p_83_out.
+DSP Report: Generating DSP p_67_out, operation Mode is: C-A*B.
+DSP Report: operator p_67_out is absorbed into DSP p_67_out.
+DSP Report: operator p_0_out is absorbed into DSP p_67_out.
+DSP Report: Generating DSP p_53_out, operation Mode is: C-A*B.
+DSP Report: operator p_53_out is absorbed into DSP p_53_out.
+DSP Report: operator p_0_out is absorbed into DSP p_53_out.
+DSP Report: Generating DSP p_41_out, operation Mode is: C-A*B.
+DSP Report: operator p_41_out is absorbed into DSP p_41_out.
+DSP Report: operator p_0_out is absorbed into DSP p_41_out.
+DSP Report: Generating DSP p_29_out, operation Mode is: C-A*B.
+DSP Report: operator p_29_out is absorbed into DSP p_29_out.
+DSP Report: operator p_0_out is absorbed into DSP p_29_out.
+DSP Report: Generating DSP p_27_out, operation Mode is: C-A*B.
+DSP Report: operator p_27_out is absorbed into DSP p_27_out.
+DSP Report: operator p_0_out is absorbed into DSP p_27_out.
+DSP Report: Generating DSP p_19_out, operation Mode is: C-A*B.
+DSP Report: operator p_19_out is absorbed into DSP p_19_out.
+DSP Report: operator p_0_out is absorbed into DSP p_19_out.
+DSP Report: Generating DSP p_25_out, operation Mode is: C-A*B.
+DSP Report: operator p_25_out is absorbed into DSP p_25_out.
+DSP Report: operator p_0_out is absorbed into DSP p_25_out.
+DSP Report: Generating DSP p_17_out, operation Mode is: C-A*B.
+DSP Report: operator p_17_out is absorbed into DSP p_17_out.
+DSP Report: operator p_0_out is absorbed into DSP p_17_out.
+DSP Report: Generating DSP p_11_out, operation Mode is: C-A*B.
+DSP Report: operator p_11_out is absorbed into DSP p_11_out.
+DSP Report: operator p_0_out is absorbed into DSP p_11_out.
+DSP Report: Generating DSP p_23_out, operation Mode is: C-A*B.
+DSP Report: operator p_23_out is absorbed into DSP p_23_out.
+DSP Report: operator p_0_out is absorbed into DSP p_23_out.
+DSP Report: Generating DSP p_15_out, operation Mode is: C-A*B.
+DSP Report: operator p_15_out is absorbed into DSP p_15_out.
+DSP Report: operator p_0_out is absorbed into DSP p_15_out.
+DSP Report: Generating DSP p_9_out, operation Mode is: C-A*B.
+DSP Report: operator p_9_out is absorbed into DSP p_9_out.
+DSP Report: operator p_0_out is absorbed into DSP p_9_out.
+DSP Report: Generating DSP p_5_out, operation Mode is: C-A*B.
+DSP Report: operator p_5_out is absorbed into DSP p_5_out.
+DSP Report: operator p_0_out is absorbed into DSP p_5_out.
+DSP Report: Generating DSP p_21_out, operation Mode is: C-A*B.
+DSP Report: operator p_21_out is absorbed into DSP p_21_out.
+DSP Report: operator p_0_out is absorbed into DSP p_21_out.
+DSP Report: Generating DSP p_13_out, operation Mode is: C-A*B.
+DSP Report: operator p_13_out is absorbed into DSP p_13_out.
+DSP Report: operator p_0_out is absorbed into DSP p_13_out.
+DSP Report: Generating DSP p_7_out, operation Mode is: C-A*B.
+DSP Report: operator p_7_out is absorbed into DSP p_7_out.
+DSP Report: operator p_0_out is absorbed into DSP p_7_out.
+DSP Report: Generating DSP p_3_out, operation Mode is: C-A*B.
+DSP Report: operator p_3_out is absorbed into DSP p_3_out.
+DSP Report: operator p_0_out is absorbed into DSP p_3_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: C-A*B.
+DSP Report: operator p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator p_0_out is absorbed into DSP p_1_out.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[1][0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[2][1][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][1][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[3][2][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[4][0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[4][0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[4][0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_reg[4][0][3] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:56 . Memory (MB): peak = 1230.098 ; gain = 676.402
+---------------------------------------------------------------------------------
+ Sort Area is lu_decomposition_12x12__GB4 p_101_out_25 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_103_out_7 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_105_out_7 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_107_out_4 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_109_out_2 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_111_out_12 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_113_out_c : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_115_out_0 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_117_out_15 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_119_out_1d : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_11_out_6 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_121_out_24 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_123_out_6 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_125_out_6 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_127_out_3 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_129_out_0 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB1 p_131_out_0 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_13_out_c : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_15_out_8 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_17_out_5 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_19_out_3 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_1_out_f : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_21_out_b : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_23_out_7 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_25_out_4 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_27_out_2 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_29_out_0 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_31_out_23 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_33_out_11 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_35_out_b : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_37_out_1a : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_39_out_22 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_3_out_e : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_41_out_29 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_43_out_1c : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_45_out_10 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_47_out_5 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_49_out_19 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_51_out_21 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_53_out_28 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_55_out_a : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_57_out_1b : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_59_out_f : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_5_out_a : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_61_out_4 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_63_out_18 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_65_out_20 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_67_out_27 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_69_out_9 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_71_out_9 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_73_out_14 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_75_out_e : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_77_out_3 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_79_out_17 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_7_out_d : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_81_out_1f : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_83_out_26 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_85_out_8 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_87_out_8 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB0 p_89_out_5 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_91_out_13 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_93_out_d : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_95_out_2 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_97_out_16 : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB4 p_99_out_1e : 0 0 : 2056 2056 : Used 1 time 0
+ Sort Area is lu_decomposition_12x12__GB5 p_9_out_9 : 0 0 : 2056 2056 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name            | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lu_decomposition_12x12 | C-A*B       | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:01:09 . Memory (MB): peak = 1381.301 ; gain = 827.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:45 . Memory (MB): peak = 1493.848 ; gain = 940.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:18]
+INFO: [Synth 8-3886] merging instance 'i_1/i_8870' (FDC) to 'i_1/i_8869'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8869' (FDC) to 'i_1/i_8868'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8868' (FDC) to 'i_1/i_8867'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8867' (FDC) to 'i_1/i_8866'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8866' (FDC) to 'i_1/i_8865'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8865' (FDC) to 'i_1/i_8864'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8864' (FDC) to 'i_1/i_8863'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8863' (FDC) to 'i_1/i_8862'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8862' (FDC) to 'i_1/i_8861'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8861' (FDC) to 'i_1/i_8860'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8860' (FDC) to 'i_1/i_8859'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8859' (FDC) to 'i_1/i_8858'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8858' (FDC) to 'i_1/i_8857'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8857' (FDC) to 'i_1/i_8856'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8856' (FDC) to 'i_1/i_8855'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8855' (FDC) to 'i_1/i_8854'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8854' (FDC) to 'i_1/i_8853'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8853' (FDC) to 'i_1/i_8852'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8852' (FDC) to 'i_1/i_8851'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8851' (FDC) to 'i_1/i_8850'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8850' (FDC) to 'i_1/i_8849'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8849' (FDC) to 'i_1/i_8848'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8848' (FDC) to 'i_1/i_8847'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8847' (FDC) to 'i_1/i_8846'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8846' (FDC) to 'i_1/i_8845'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8845' (FDC) to 'i_1/i_8844'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8844' (FDC) to 'i_1/i_8843'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8843' (FDC) to 'i_1/i_8842'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8842' (FDC) to 'i_1/i_8841'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8841' (FDC) to 'i_1/i_8840'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8840' (FDC) to 'i_1/i_8839'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8839' (FDC) to 'i_1/i_8838'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8838' (FDC) to 'i_1/i_8837'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8837' (FDC) to 'i_1/i_8836'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8836' (FDC) to 'i_1/i_8835'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8835' (FDC) to 'i_1/i_8834'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8834' (FDC) to 'i_1/i_8833'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8833' (FDC) to 'i_1/i_8832'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8832' (FDC) to 'i_1/i_8831'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8831' (FDC) to 'i_1/i_8830'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8830' (FDC) to 'i_1/i_8829'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8829' (FDC) to 'i_1/i_8828'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8828' (FDC) to 'i_1/i_8827'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8827' (FDC) to 'i_1/i_8826'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8826' (FDC) to 'i_1/i_8825'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8825' (FDC) to 'i_1/i_8824'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8824' (FDC) to 'i_1/i_8823'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8823' (FDC) to 'i_1/i_8822'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8822' (FDC) to 'i_1/i_8821'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8821' (FDC) to 'i_1/i_8820'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8820' (FDC) to 'i_1/i_8819'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8819' (FDC) to 'i_1/i_8818'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8818' (FDC) to 'i_1/i_8817'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8817' (FDC) to 'i_1/i_8816'
+INFO: [Synth 8-3886] merging instance 'i_1/i_8816' (FDC) to 'i_1/i_8815'
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.srcs/sources_1/new/bmm.sv:17]
+INFO: [Common 17-14] Message 'Synth 8-5844' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-5844' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'i_0/i_9784' (FDC) to 'i_0/i_9783'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9783' (FDC) to 'i_0/i_9782'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9782' (FDC) to 'i_0/i_9781'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9781' (FDC) to 'i_0/i_9780'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9780' (FDC) to 'i_0/i_9779'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9778' (FDC) to 'i_0/i_9779'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9777' (FDC) to 'i_0/i_9779'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9776' (FDC) to 'i_0/i_9779'
+INFO: [Synth 8-3886] merging instance 'i_0/i_9775' (FDC) to 'i_0/i_9779'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:21 ; elapsed = 00:02:37 . Memory (MB): peak = 1501.324 ; gain = 947.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:33 ; elapsed = 00:02:51 . Memory (MB): peak = 1634.148 ; gain = 1080.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:34 ; elapsed = 00:02:51 . Memory (MB): peak = 1634.148 ; gain = 1080.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:40 ; elapsed = 00:02:58 . Memory (MB): peak = 1636.316 ; gain = 1082.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:40 ; elapsed = 00:02:58 . Memory (MB): peak = 1636.316 ; gain = 1082.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:40 ; elapsed = 00:02:58 . Memory (MB): peak = 1636.316 ; gain = 1082.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:41 ; elapsed = 00:02:59 . Memory (MB): peak = 1636.316 ; gain = 1082.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name            | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
+|lu_decomposition_12x12 | Dynamic     | -      | -      | -      | -      | 16     | -    | -    | -    | -    | -     | 0    | 1    | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |  5280|
+|3     |DSP48E1 |    66|
+|4     |LUT1    |   330|
+|5     |LUT2    |  3707|
+|6     |LUT3    |  2695|
+|7     |LUT4    | 13200|
+|8     |FDCE    |  1344|
+|9     |IBUF    |   194|
+|10    |OBUF    |  4608|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:41 ; elapsed = 00:02:59 . Memory (MB): peak = 1636.316 ; gain = 1082.621
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 2112 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:30 ; elapsed = 00:02:57 . Memory (MB): peak = 1636.316 ; gain = 991.793
+Synthesis Optimization Complete : Time (s): cpu = 00:01:41 ; elapsed = 00:03:00 . Memory (MB): peak = 1636.316 ; gain = 1082.621
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.717 . Memory (MB): peak = 1665.348 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5346 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'lu_decomposition_12x12' is not ideal for floorplanning, since the cellview 'lu_decomposition_12x12' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1677.605 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 25c08630
+INFO: [Common 17-83] Releasing license: Synthesis
+288 Infos, 104 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:00 ; elapsed = 00:03:22 . Memory (MB): peak = 1677.605 ; gain = 1306.984
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 1677.605 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.runs/synth_1/lu_decomposition_12x12.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1677.605 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file lu_decomposition_12x12_utilization_synth.rpt -pb lu_decomposition_12x12_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1677.605 ; gain = 0.000
+generate_parallel_reports: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1677.605 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 13:56:12 2025...

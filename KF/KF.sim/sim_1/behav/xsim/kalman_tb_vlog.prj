@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../KF.srcs/sources_1/new/matrix_mult.sv" \
+"../../../../KF.srcs/sources_1/new/kalman_filter.sv" \
+"../../../../KF.srcs/sources_1/new/matrix_add.sv" \
+"../../../../KF.srcs/sources_1/new/matrix_inverse.sv" \
+"../../../../KF.srcs/sources_1/new/matrix_sub.sv" \
+"../../../../KF.srcs/sources_1/new/matrix_transpose.sv" \
+"../../../../KF.srcs/sim_1/new/kalman_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,38 @@
+
+*** Running vivado
+    with args -log kalman_filter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source kalman_filter.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Apr 25 20:27:32 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source kalman_filter.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 367.969 ; gain = 66.242
+Command: synth_design -top kalman_filter -part xcu200-fsgd2104-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu200'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu200'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 59008
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 845.641 ; gain = 475.703
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kalman_filter' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:3]
+ERROR: [Synth 8-26] ref module ports not implemented [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:13]
+ERROR: [Synth 8-6156] failed synthesizing module 'kalman_filter' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 950.641 ; gain = 580.703
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 25 20:28:05 2025...

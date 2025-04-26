@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr 21 13:51:37 2025
+# Process ID         : 33748
+# Current directory  : C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.runs/synth_1
+# Command line       : vivado.exe -log lu_decomposition_12x12.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lu_decomposition_12x12.tcl
+# Log file           : C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.runs/synth_1/lu_decomposition_12x12.vds
+# Journal file       : C:/code/KalmanFilterVLSI/Basic_Matrix_Mult/Basic_Matrix_Mult.runs/synth_1\vivado.jou
+# Running On         : Amars-XPS
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 68374 MB
+# Swap memory        : 9485 MB
+# Total Virtual      : 77859 MB
+# Available Virtual  : 12384 MB
+#-----------------------------------------------------------
+source lu_decomposition_12x12.tcl -notrace

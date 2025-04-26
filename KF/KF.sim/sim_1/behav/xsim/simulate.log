@@ -1,0 +1,23043 @@
+Time resolution is 1 ps
+[INFO] Matrices loaded inside kalman_filter.
+[DEBUG] clk=1 rst=1 start=0 done=0
+[DEBUG] clk=1 rst=1 start=0 done=0
+[INFO] Matrices loaded from mem files.
+[DEBUG] clk=1 rst=0 start=0 done=0
+[INFO] Start signal sent.
+[STATE] IDLE -> A_MU
+[DEBUG] clk=1 rst=0 start=1 done=0
+[STATE] A_MU
+[INFO] Waiting for done...
+[STATE] A_MU
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[STATE] A_MU
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 9):
+8192
+0
+16384
+0
+[STATE] B_U
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[DEBUG] clk=1 rst=0 start=0 done=0
+[STATE] B_U
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 10):
+0
+0
+0
+0
+[STATE] MU_PREDICT
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_add output (index 11):
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[STATE] MU_PREDICT
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+x
+[STATE] MU_PREDICT
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 11):
+0
+x
+x
+x
+[RESULT] matrix_add output (index 11):
+[STATE] A_SIGMA
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 12):
+x
+x
+x
+x
+x
+[STATE] TRANS_A
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+16
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+0
+[DEBUG] clk=1 rst=0 start=0 done=0
+0
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+0
+[DEBUG] clk=1 rst=0 start=0 done=0
+0
+[DEBUG] clk=1 rst=0 start=0 done=0
+16
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[STATE] TRANS_A
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 27):
+256
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[STATE] A_SIGMA_AT
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[STATE] A_SIGMA_AT
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 13):
+16548
+x
+x
+x
+x
+[STATE] SIGMA_PREDICT_ADD_Q
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[STATE] SIGMA_PREDICT_ADD_Q
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] SIGMA_PREDICT_ADD_Q
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] SIGMA_PREDICT_ADD_Q
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 14):
+x
+x
+x
+x
+[RESULT] matrix_add output (index 14):
+[RESULT] matrix_transpose output (index 14):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] C_SIGMA
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 15):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 15):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] TRANS_C
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 28):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] C_SIGMA_CT
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[STATE] C_SIGMA_CT
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 16):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 16):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 16):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] C_SIGMA_CT
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 16):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 16):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] S_TEMP_ADD_R
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] S_TEMP_ADD_R
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] S_TEMP_ADD_R
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 17):
+x
+x
+x
+x
+[RESULT] matrix_add output (index 17):
+[RESULT] matrix_transpose output (index 17):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] S_INVERSE
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 18):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 18):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+x
+x
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+x
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[STATE] S_INVERSE
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 18):
+16384
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[RESULT] matrix_inverse output (index 18):
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[STATE] SIGMA_CT
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 19):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 19):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] KALMAN_GAIN
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+0
+0
+16384
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+0
+0
+16384
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+0
+0
+16384
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+0
+0
+16384
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[STATE] KALMAN_GAIN
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[RESULT] matrix_inverse output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[RESULT] matrix_inverse output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[RESULT] matrix_inverse output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[RESULT] matrix_inverse output (index 20):
+x
+x
+x
+0
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[STATE] KALMAN_GAIN
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 20):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 20):
+x
+x
+x
+x
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[RESULT] matrix_inverse output (index 20):
+x
+x
+x
+x
+0
+16384
+0
+0
+0
+0
+16384
+0
+0
+0
+0
+16384
+[STATE] Y_TEMP
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] Y_TEMP
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+x
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] Y_TEMP
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 21):
+0
+0
+0
+0
+[RESULT] matrix_add output (index 21):
+[RESULT] matrix_transpose output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 21):
+0
+0
+0
+0
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] K_Y
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 22):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 22):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 22):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] MU_UPDATE
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] MU_UPDATE
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] MU_UPDATE
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 29):
+x
+x
+x
+x
+[RESULT] matrix_add output (index 29):
+[RESULT] matrix_transpose output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 29):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] K_C
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 24):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 24):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 24):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] I_MINUS_KC
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[STATE] I_MINUS_KC
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_transpose output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[RESULT] matrix_inverse output (index 25):
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+[DEBUG] clk=1 rst=0 start=0 done=0
+[RESULT] matrix_mult output (index 25):
+x
+x
+x
+x
+x
+[RESULT] matrix_tra
