@@ -53,10 +53,10 @@ module matrix_mult #(
                 end
             end
         end
-        if (!computing && done) begin
-            $display("[RESULT] matrix_mult output (index %0d):", index_C);
-            for (int p = 0; p < mult_M * mult_N; p++) $display("%0d", matrix_pool[index_C][p]);
-        end
+//        if (!computing && done) begin
+//            $display("[RESULT] matrix_mult output (index %0d):", index_C);
+//            for (int p = 0; p < mult_M * mult_N; p++) $display("%0d", matrix_pool[index_C][p]);
+//        end
     end
 
 endmodule

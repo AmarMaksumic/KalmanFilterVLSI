@@ -2,7 +2,7 @@
 // Full Kalman Filter: Prediction + Correction + Matrix operations (mult, add, transpose, inverse) with debug logs
 
 module kalman_filter #(
-    parameter int STATE_SIZE = 4,
+    parameter int STATE_SIZE = 6,
     parameter int DATA_WIDTH = 16,
     parameter int NUM_MATRICES = 32
 )(

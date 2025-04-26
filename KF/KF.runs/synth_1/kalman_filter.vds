@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Fri Apr 25 20:27:32 2025
-# Process ID         : 67448
+# Start of session at: Sat Apr 26 04:04:04 2025
+# Process ID         : 63116
 # Current directory  : C:/code/KalmanFilterVLSI/KF/KF.runs/synth_1
 # Command line       : vivado.exe -log kalman_filter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kalman_filter.tcl
 # Log file           : C:/code/KalmanFilterVLSI/KF/KF.runs/synth_1/kalman_filter.vds
@@ -17,31 +17,1101 @@
 # CPU Physical cores : 14
 # CPU Logical cores  : 20
 # Host memory        : 68374 MB
-# Swap memory        : 9485 MB
-# Total Virtual      : 77859 MB
-# Available Virtual  : 16808 MB
+# Swap memory        : 11655 MB
+# Total Virtual      : 80029 MB
+# Available Virtual  : 12483 MB
 #-----------------------------------------------------------
 source kalman_filter.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 367.969 ; gain = 66.242
-Command: synth_design -top kalman_filter -part xcu200-fsgd2104-2-e
+Command: read_checkpoint -auto_incremental -incremental C:/code/KalmanFilterVLSI/KF/KF.srcs/utils_1/imports/synth_1/kalman_filter.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/code/KalmanFilterVLSI/KF/KF.srcs/utils_1/imports/synth_1/kalman_filter.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+read_checkpoint: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 370.695 ; gain = 3.277
+Command: synth_design -top kalman_filter -part xczu4ev-fbvb900-2-i
 Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xcu200'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu200'
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu4ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu4ev'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 59008
+INFO: [Synth 8-7075] Helper process launched with PID 61516
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 845.641 ; gain = 475.703
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 848.910 ; gain = 471.844
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'kalman_filter' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:3]
-ERROR: [Synth 8-26] ref module ports not implemented [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:13]
-ERROR: [Synth 8-6156] failed synthesizing module 'kalman_filter' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'kalman_filter' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:4]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'A_matrix.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:59]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'B_matrix.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:60]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'C_matrix.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:61]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'z_vector.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:62]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'Q_matrix.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:63]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'R_matrix.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:64]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'mu_prev.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:65]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'Sigma_prev.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:66]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'u_vector.mem'; please make sure the file is added to project and has read permission, ignoring [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:67]
+INFO: [Synth 8-251] [INFO] Matrices loaded inside kalman_filter. [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:68]
+INFO: [Synth 8-6157] synthesizing module 'matrix_mult' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:1]
+	Parameter DATA_WIDTH bound to: 32'sb00000000000000000000000000010000 
+	Parameter NUM_MATRICES bound to: 32'sb00000000000000000000000000100000 
+INFO: [Synth 8-6155] done synthesizing module 'matrix_mult' (0#1) [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'matrix_add' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_add.sv:1]
+	Parameter DATA_WIDTH bound to: 32'sb00000000000000000000000000010000 
+	Parameter NUM_MATRICES bound to: 32'sb00000000000000000000000000100000 
+INFO: [Synth 8-6155] done synthesizing module 'matrix_add' (0#1) [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_add.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'matrix_transpose' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_transpose.sv:1]
+	Parameter DATA_WIDTH bound to: 32'sb00000000000000000000000000010000 
+	Parameter NUM_MATRICES bound to: 32'sb00000000000000000000000000100000 
+INFO: [Synth 8-6155] done synthesizing module 'matrix_transpose' (0#1) [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_transpose.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'matrix_inverse' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_inverse.sv:1]
+	Parameter DATA_WIDTH bound to: 32'sb00000000000000000000000000010000 
+	Parameter NUM_MATRICES bound to: 32'sb00000000000000000000000000100000 
+INFO: [Synth 8-6155] done synthesizing module 'matrix_inverse' (0#1) [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_inverse.sv:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:94]
+INFO: [Synth 8-6155] done synthesizing module 'kalman_filter' (0#1) [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv:4]
+WARNING: [Synth 8-11357] Potential Runtime issue for 3D-RAM or RAM from Record/Structs for RAM  matrix_pool_reg with 73728 registers
+WARNING: [Synth 8-7137] Register i_reg in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:33]
+WARNING: [Synth 8-7137] Register j_reg in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:33]
+WARNING: [Synth 8-7137] Register k_reg in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:33]
+WARNING: [Synth 8-7137] Register sum_reg in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:34]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][0] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][1] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][2] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][3] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][4] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][5] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][6] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][7] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][8] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][9] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][10] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][11] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][12] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][13] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][14] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][15] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][16] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][17] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][18] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][19] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][20] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][21] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][22] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][23] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][24] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][25] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][26] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][27] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][28] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][29] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][30] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][31] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][32] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][33] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][34] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][35] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][36] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][37] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][38] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][39] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][40] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][41] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][42] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][43] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][44] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][45] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][46] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][47] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][48] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][49] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][50] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][51] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][52] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][53] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][54] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][55] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][56] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][57] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][58] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][59] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][60] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][61] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][62] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][63] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][64] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][65] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][66] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][67] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][68] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][69] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][70] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][71] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][72] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][73] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][74] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][75] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][76] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][77] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][78] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][79] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][80] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][81] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][82] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][83] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][84] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][85] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][86] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][87] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][88] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][89] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][90] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][91] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][92] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][93] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][94] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+WARNING: [Synth 8-7137] Register matrix_pool_reg[0][95] in module matrix_mult has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+INFO: [Common 17-14] Message 'Synth 8-7137' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-11357] Potential Runtime issue for 3D-RAM or RAM from Record/Structs for RAM  matrix_pool_reg with 73728 registers
+WARNING: [Synth 8-11357] Potential Runtime issue for 3D-RAM or RAM from Record/Structs for RAM  matrix_pool_reg with 73728 registers
+WARNING: [Synth 8-11357] Potential Runtime issue for 3D-RAM or RAM from Record/Structs for RAM  matrix_pool_reg with 73728 registers
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[31] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[30] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[29] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[28] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[27] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[26] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[25] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[24] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[23] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[22] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[21] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[20] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[19] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[18] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[17] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[16] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[15] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[14] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[13] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[12] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[11] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[10] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[9] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[8] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[7] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[6] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[5] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[4] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[3] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[2] driven by constant 1
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[1] driven by constant 1
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[0] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[31] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[30] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[29] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[28] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[27] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[26] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[25] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[24] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[23] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[22] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[21] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[20] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[19] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[18] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[17] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[16] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[15] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[14] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[13] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[12] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[11] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[10] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[9] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[8] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[7] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[6] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[5] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[4] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[3] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[2] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[1] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_N[0] driven by constant 1
+WARNING: [Synth 8-7129] Port index_in[31] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[30] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[29] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[28] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[27] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[26] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[25] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[24] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[23] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[22] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[21] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[20] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[19] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[18] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[17] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[16] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[15] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[14] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[13] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[12] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[11] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[10] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[9] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[8] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[7] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[6] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[5] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[4] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[3] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[2] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[1] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[0] in module matrix_inverse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[31] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[30] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[29] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[28] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[27] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[26] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[25] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[24] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[23] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[22] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[21] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[20] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[19] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[18] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[17] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[16] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[15] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[14] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[13] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[12] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[11] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[10] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[9] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[8] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[7] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[6] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_in[5] in module matrix_transpose is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[31] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[30] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[29] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[28] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[27] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[26] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[25] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[24] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[23] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[22] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[21] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[20] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[19] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[18] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[17] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[16] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[15] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[14] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[13] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[12] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[11] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[10] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[9] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[8] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[7] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[6] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_A[5] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[31] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[30] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[29] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[28] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[27] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[26] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[25] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[24] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[23] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[22] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[21] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[20] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[19] in module matrix_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port index_B[18] in module matrix_add is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 950.641 ; gain = 580.703
+Finished Synthesize : Time (s): cpu = 00:02:44 ; elapsed = 00:02:50 . Memory (MB): peak = 3851.887 ; gain = 3474.820
 ---------------------------------------------------------------------------------
-synthesize failed
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:58 ; elapsed = 00:03:05 . Memory (MB): peak = 3861.180 ; gain = 3484.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu4ev-fbvb900-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xczu4ev-fbvb900-2-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:58 ; elapsed = 00:03:05 . Memory (MB): peak = 3861.180 ; gain = 3484.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6702] IncrSynth : Design change found in an area of the design that prevents previous synthesis information being used, Reverting to default synthesis
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:03:40 ; elapsed = 00:03:38 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:03:40 ; elapsed = 00:03:38 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'kalman_filter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                            00000 |                           000000
+                    A_MU |                            00001 |                           000001
+                     B_U |                            00010 |                           000010
+              MU_PREDICT |                            00011 |                           000011
+                 A_SIGMA |                            00100 |                           000100
+                 TRANS_A |                            00101 |                           000101
+              A_SIGMA_AT |                            00110 |                           000110
+     SIGMA_PREDICT_ADD_Q |                            00111 |                           000111
+                 C_SIGMA |                            01000 |                           001000
+                 TRANS_C |                            01001 |                           001001
+              C_SIGMA_CT |                            01010 |                           001010
+            S_TEMP_ADD_R |                            01011 |                           001011
+               S_INVERSE |                            01100 |                           001100
+                SIGMA_CT |                            01101 |                           001101
+             KALMAN_GAIN |                            01110 |                           001110
+                  Y_TEMP |                            01111 |                           001111
+                     K_Y |                            10000 |                           010000
+               MU_UPDATE |                            10001 |                           010001
+                     K_C |                            10010 |                           010010
+              I_MINUS_KC |                            10011 |                           010011
+            SIGMA_UPDATE |                            10100 |                           010100
+                    DONE |                            10101 |                           010101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'kalman_filter'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:09:04 ; elapsed = 00:09:41 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : Design change found in an area of the design that prevents previous synthesis information being used
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 11    
+	   2 Input   16 Bit       Adders := 5     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 18436 
+	                1 Bit    Registers := 4     
++---Multipliers : 
+	              16x32  Multipliers := 1     
+	              32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   2 Input   16 Bit        Muxes := 8     
+	  22 Input    6 Bit        Muxes := 3     
+	  22 Input    5 Bit        Muxes := 1     
+	  22 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 15    
+	  22 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 728 (col length:96)
+BRAMs: 256 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[31] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[30] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[29] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[28] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[27] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[26] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[25] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[24] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[23] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[22] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[21] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[20] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[19] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[18] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[17] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[16] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[15] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[14] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[13] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[12] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[11] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[10] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[9] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[8] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[7] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[6] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[5] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[4] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[3] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[2] driven by constant 1
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[1] driven by constant 1
+WARNING: [Synth 8-3917] design kalman_filter has port mult_M[0] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_K[31] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_K[30] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_K[29] driven by constant 0
+WARNING: [Synth 8-3917] design kalman_filter has port mult_K[28] driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-3917' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+DSP Report: Generating DSP sum0, operation Mode is: C+A*B.
+DSP Report: operator sum0 is absorbed into DSP sum0.
+DSP Report: operator sum1 is absorbed into DSP sum0.
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 2. [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:40]
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 4. [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_transpose.sv:31]
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][0]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][1]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][2]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][3]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][4]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][5]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][6]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][7]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][8]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][9]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][10]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][11]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][12]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[13][62][13]' (FDE) to 'matrix_pool_reg[13][62][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[13][62][15] )
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][0]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][1]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][2]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][3]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][4]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][5]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][6]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][7]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][8]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][9]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][10]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][11]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][12]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[11][90][13]' (FDE) to 'matrix_pool_reg[11][90][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[11][90][15] )
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][0]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][1]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][2]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][3]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][4]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][5]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][6]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][7]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][8]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][9]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][10]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][11]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][12]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][106][13]' (FDE) to 'matrix_pool_reg[20][106][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[20][106][15] )
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][0]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][1]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][2]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][3]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][4]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][5]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][6]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][7]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][8]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][9]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][10]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][11]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][12]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[27][104][13]' (FDE) to 'matrix_pool_reg[27][104][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[27][104][15] )
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][0]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][1]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][2]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][3]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][4]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][5]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][6]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][7]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][8]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][9]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][10]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][11]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][12]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[20][109][13]' (FDE) to 'matrix_pool_reg[20][109][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[20][109][15] )
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][0]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][1]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][2]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][3]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][4]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][5]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][6]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][7]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][8]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][9]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][10]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][11]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][12]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[2][94][13]' (FDE) to 'matrix_pool_reg[2][94][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][94][15] )
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][0]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][1]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][2]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][3]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][4]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][5]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][6]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][7]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][8]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][9]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][10]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][11]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][12]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][42][13]' (FDE) to 'matrix_pool_reg[29][42][15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][42][15] )
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][43][0]' (FDE) to 'matrix_pool_reg[29][43][15]'
+INFO: [Synth 8-3886] merging instance 'matrix_pool_reg[29][43][1]' (FDE) to 'matrix_pool_reg[29][43][15]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][43][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][90][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[22][88][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[16][129][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[13][58][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[18][127][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[20][104][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][53][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][2][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][83][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[18][83][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[8][132][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][5][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[20][116][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[7][22][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[18][124][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[20][121][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][76][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[5][127][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[5][128][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[5][115][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[8][14][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][16][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][70][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[20][32][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[27][107][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[23][43][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][66][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][26][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[24][93][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[5][132][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[27][93][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][83][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][88][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[7][16][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][21][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[16][121][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[4][47][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][90][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[17][132][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][21][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][26][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[10][121][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[8][127][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[16][120][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[19][97][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[10][104][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][31][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[7][10][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[18][121][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][16][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[22][47][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[18][2][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[13][82][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][35][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[22][42][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[13][83][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][36][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[12][100][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[25][128][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[4][51][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[25][125][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][31][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[16][113][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][14][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][27][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[27][90][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[25][124][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][25][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][42][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][22][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][21][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][13][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][19][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[4][53][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[11][32][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[5][53][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][124][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][43][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[2][12][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[6][2][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][127][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[6][3][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[9][47][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[6][4][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[10][97][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[5][113][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[29][129][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[19][12][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[13][99][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[8][124][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[22][26][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\matrix_pool_reg[12][115][15] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 0. Recommended levels of pipeline registers is 4. [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_inverse.sv:31]
+DSP Report: Generating DSP done2, operation Mode is: A*B.
+DSP Report: operator done2 is absorbed into DSP done2.
+DSP Report: operator done2 is absorbed into DSP done2.
+DSP Report: Generating DSP done2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator done2 is absorbed into DSP done2.
+DSP Report: operator done2 is absorbed into DSP done2.
+DSP Report: Generating DSP done2, operation Mode is: A*B.
+DSP Report: operator done2 is absorbed into DSP done2.
+DSP Report: operator done2 is absorbed into DSP done2.
+DSP Report: Generating DSP done2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator done2 is absorbed into DSP done2.
+DSP Report: operator done2 is absorbed into DSP done2.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:18:46 ; elapsed = 00:20:01 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+ Sort Area is matrix_inverse__GB8 done2_0 : 0 0 : 3101 5754 : Used 1 time 0
+ Sort Area is matrix_inverse__GB8 done2_0 : 0 1 : 2653 5754 : Used 1 time 0
+ Sort Area is matrix_transpose__GB0 p_0_out_0 : 0 0 : 3101 5754 : Used 1 time 0
+ Sort Area is matrix_transpose__GB0 p_0_out_0 : 0 1 : 2653 5754 : Used 1 time 0
+ Sort Area is matrix_mult__GB13 p_0_out_0 : 0 0 : 3017 5738 : Used 1 time 0
+ Sort Area is matrix_mult__GB13 p_0_out_0 : 0 1 : 2721 5738 : Used 1 time 0
+ Sort Area is matrix_inverse__GB8 done2_3 : 0 0 : 2634 5119 : Used 1 time 0
+ Sort Area is matrix_inverse__GB8 done2_3 : 0 1 : 2485 5119 : Used 1 time 0
+ Sort Area is matrix_transpose__GB0 p_0_out_3 : 0 0 : 2634 5119 : Used 1 time 0
+ Sort Area is matrix_transpose__GB0 p_0_out_3 : 0 1 : 2485 5119 : Used 1 time 0
+ Sort Area is matrix_mult__GB0 sum0_0 : 0 0 : 1984 1984 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++----------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name           | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|matrix_mult           | C+A*B          | 16     | 16     | 16     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|matrix_mult__GB13     | A*B            | 18     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_mult__GB13     | (PCIN>>17)+A*B | 17     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_transpose__GB0 | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_transpose__GB0 | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_transpose__GB0 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_transpose__GB0 | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_inverse__GB8   | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_inverse__GB8   | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_inverse__GB8   | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_inverse__GB8   | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:19:03 ; elapsed = 00:20:18 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:20:08 ; elapsed = 00:21:25 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][15]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][13]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][12]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][11]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][10]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][9]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][8]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][7]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][6]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][5]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][4]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][3]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][2]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][1]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[17][116][0]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][15]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][13]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][12]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][11]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][10]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][9]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][8]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][7]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][6]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][5]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][4]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][3]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][2]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][1]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[0][5][0]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][15]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][13]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][12]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][11]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][10]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][9]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][8]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][7]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][6]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][5]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][4]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][3]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][2]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][1]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[1][5][0]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[2][5][15]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[2][5][13]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[2][5][12]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[2][5][11]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'mult_inst/matrix_pool_reg[2][5][10]/Q' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv:37]
+INFO: [Common 17-14] Message 'Synth 8-6858' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:20:47 ; elapsed = 00:22:06 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:20:48 ; elapsed = 00:22:07 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|     4608|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:20:53 ; elapsed = 00:22:12 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:20:53 ; elapsed = 00:22:13 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:20:54 ; elapsed = 00:22:14 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:20:54 ; elapsed = 00:22:14 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++----------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name           | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|matrix_inverse__GB8   | A*B          | 3      | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_inverse__GB8   | A*B          | 3      | 3      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_inverse__GB8   | PCIN>>17+A*B | 0      | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_mult           | C'+A*B       | 15     | 15     | 48     | -      | 16     | 0    | 0    | 1    | -    | -     | 0    | 0    | 
+|matrix_mult__GB13     | A*B          | 1      | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_mult__GB13     | PCIN>>17+A*B | 16     | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_transpose__GB0 | A*B'         | 3      | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|matrix_transpose__GB0 | A'*B         | 17     | 3      | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|matrix_transpose__GB0 | PCIN>>17+A*B | 0      | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY8  |   397|
+|3     |DSP48E2 |     9|
+|4     |LUT1    |    73|
+|5     |LUT2    |  3231|
+|6     |LUT3    |   629|
+|7     |LUT4    |  3572|
+|8     |LUT5    |  5417|
+|9     |LUT6    | 17890|
+|10    |MUXF7   |  2963|
+|11    |MUXF8   |   116|
+|12    |FDCE    |    13|
+|13    |FDRE    | 18636|
+|14    |IBUF    |     3|
+|15    |OBUF    | 73825|
++------+--------+------+
+
+Report Instance Areas: 
++------+-------------+-----------------+-------+
+|      |Instance     |Module           |Cells  |
++------+-------------+-----------------+-------+
+|1     |top          |                 | 126775|
+|2     |  add_inst   |matrix_add       |  14144|
+|3     |  inv_inst   |matrix_inverse   |  12601|
+|4     |  mult_inst  |matrix_mult      |  14088|
+|5     |  trans_inst |matrix_transpose |  12102|
++------+-------------+-----------------+-------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:20:55 ; elapsed = 00:22:15 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 640521 critical warnings and 18769 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:20:55 ; elapsed = 00:22:15 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+Synthesis Optimization Complete : Time (s): cpu = 00:20:55 ; elapsed = 00:22:15 . Memory (MB): peak = 5935.023 ; gain = 5557.957
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 5935.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3489 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 5935.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 9 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 3 instances
+
+Synth Design complete | Checksum: 9f125e5b
 INFO: [Common 17-83] Releasing license: Synthesis
-6 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
-synth_design failed
-ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 25 20:28:05 2025...
+244 Infos, 305 Warnings, 209 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:21:46 ; elapsed = 00:23:09 . Memory (MB): peak = 5935.023 ; gain = 5564.328
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 5935.023 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/code/KalmanFilterVLSI/KF/KF.runs/synth_1/kalman_filter.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 5935.023 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file kalman_filter_utilization_synth.rpt -pb kalman_filter_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 26 04:28:14 2025...

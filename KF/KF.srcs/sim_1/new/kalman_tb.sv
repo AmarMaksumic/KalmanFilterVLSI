@@ -34,9 +34,9 @@ module kalman_tb;
     always #5 clk = ~clk;
 
     // Debug monitor
-    always_ff @(posedge clk) begin
-        $display("[DEBUG] clk=%0d rst=%0d start=%0d done=%0d", clk, rst, start, done);
-    end
+//    always_ff @(posedge clk) begin
+//        $display("[DEBUG] clk=%0d rst=%0d start=%0d done=%0d", clk, rst, start, done);
+//    end
 
     // Load matrices from .mem files and start simulation
     initial begin

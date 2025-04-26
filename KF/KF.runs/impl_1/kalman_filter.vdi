@@ -1,0 +1,162 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Apr 26 00:21:29 2025
+# Process ID         : 17864
+# Current directory  : C:/code/KalmanFilterVLSI/KF/KF.runs/impl_1
+# Command line       : vivado.exe -log kalman_filter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source kalman_filter.tcl -notrace
+# Log file           : C:/code/KalmanFilterVLSI/KF/KF.runs/impl_1/kalman_filter.vdi
+# Journal file       : C:/code/KalmanFilterVLSI/KF/KF.runs/impl_1\vivado.jou
+# Running On         : Amars-XPS
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 68374 MB
+# Swap memory        : 9485 MB
+# Total Virtual      : 77859 MB
+# Available Virtual  : 12622 MB
+#-----------------------------------------------------------
+source kalman_filter.tcl -notrace
+Command: link_design -top kalman_filter -part xcu200-fsgd2104-2-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xcu200-fsgd2104-2-e
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.461 . Memory (MB): peak = 1462.398 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3488 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1783.398 ; gain = 120.668
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2054.973 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 9 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 3 instances
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 2054.973 ; gain = 1687.266
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcu200'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcu200'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][0][0] has multiple drivers: inv_inst/matrix_pool_reg[0][0][14]/Q, trans_inst/matrix_pool_reg[0][0][14]/Q, mult_inst/matrix_pool_reg[0][0][14]/Q, and add_inst/matrix_pool_reg[0][0][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][100][0] has multiple drivers: inv_inst/matrix_pool_reg[0][100][14]/Q, trans_inst/matrix_pool_reg[0][100][14]/Q, mult_inst/matrix_pool_reg[0][100][14]/Q, and add_inst/matrix_pool_reg[0][100][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][101][0] has multiple drivers: inv_inst/matrix_pool_reg[0][101][14]/Q, trans_inst/matrix_pool_reg[0][101][14]/Q, mult_inst/matrix_pool_reg[0][101][14]/Q, and add_inst/matrix_pool_reg[0][101][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][102][0] has multiple drivers: inv_inst/matrix_pool_reg[0][102][14]/Q, trans_inst/matrix_pool_reg[0][102][14]/Q, mult_inst/matrix_pool_reg[0][102][14]/Q, and add_inst/matrix_pool_reg[0][102][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][103][0] has multiple drivers: inv_inst/matrix_pool_reg[0][103][14]/Q, trans_inst/matrix_pool_reg[0][103][14]/Q, mult_inst/matrix_pool_reg[0][103][14]/Q, and add_inst/matrix_pool_reg[0][103][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][104][0] has multiple drivers: inv_inst/matrix_pool_reg[0][104][14]/Q, trans_inst/matrix_pool_reg[0][104][14]/Q, mult_inst/matrix_pool_reg[0][104][14]/Q, and add_inst/matrix_pool_reg[0][104][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][105][0] has multiple drivers: inv_inst/matrix_pool_reg[0][105][14]/Q, trans_inst/matrix_pool_reg[0][105][14]/Q, mult_inst/matrix_pool_reg[0][105][14]/Q, and add_inst/matrix_pool_reg[0][105][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][106][0] has multiple drivers: inv_inst/matrix_pool_reg[0][106][14]/Q, trans_inst/matrix_pool_reg[0][106][14]/Q, mult_inst/matrix_pool_reg[0][106][14]/Q, and add_inst/matrix_pool_reg[0][106][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][107][0] has multiple drivers: inv_inst/matrix_pool_reg[0][107][14]/Q, trans_inst/matrix_pool_reg[0][107][14]/Q, mult_inst/matrix_pool_reg[0][107][14]/Q, and add_inst/matrix_pool_reg[0][107][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][108][0] has multiple drivers: inv_inst/matrix_pool_reg[0][108][14]/Q, trans_inst/matrix_pool_reg[0][108][14]/Q, mult_inst/matrix_pool_reg[0][108][14]/Q, and add_inst/matrix_pool_reg[0][108][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][109][0] has multiple drivers: inv_inst/matrix_pool_reg[0][109][14]/Q, trans_inst/matrix_pool_reg[0][109][14]/Q, mult_inst/matrix_pool_reg[0][109][14]/Q, and add_inst/matrix_pool_reg[0][109][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][10][0] has multiple drivers: inv_inst/matrix_pool_reg[0][10][14]/Q, trans_inst/matrix_pool_reg[0][10][14]/Q, mult_inst/matrix_pool_reg[0][10][14]/Q, and add_inst/matrix_pool_reg[0][10][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][110][0] has multiple drivers: inv_inst/matrix_pool_reg[0][110][14]/Q, trans_inst/matrix_pool_reg[0][110][14]/Q, mult_inst/matrix_pool_reg[0][110][14]/Q, and add_inst/matrix_pool_reg[0][110][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][111][0] has multiple drivers: inv_inst/matrix_pool_reg[0][111][14]/Q, trans_inst/matrix_pool_reg[0][111][14]/Q, mult_inst/matrix_pool_reg[0][111][14]/Q, and add_inst/matrix_pool_reg[0][111][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][112][0] has multiple drivers: inv_inst/matrix_pool_reg[0][112][14]/Q, trans_inst/matrix_pool_reg[0][112][14]/Q, mult_inst/matrix_pool_reg[0][112][14]/Q, and add_inst/matrix_pool_reg[0][112][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][113][0] has multiple drivers: inv_inst/matrix_pool_reg[0][113][14]/Q, trans_inst/matrix_pool_reg[0][113][14]/Q, mult_inst/matrix_pool_reg[0][113][14]/Q, and add_inst/matrix_pool_reg[0][113][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][114][0] has multiple drivers: inv_inst/matrix_pool_reg[0][114][14]/Q, trans_inst/matrix_pool_reg[0][114][14]/Q, mult_inst/matrix_pool_reg[0][114][14]/Q, and add_inst/matrix_pool_reg[0][114][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][115][0] has multiple drivers: inv_inst/matrix_pool_reg[0][115][14]/Q, trans_inst/matrix_pool_reg[0][115][14]/Q, mult_inst/matrix_pool_reg[0][115][14]/Q, and add_inst/matrix_pool_reg[0][115][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][116][0] has multiple drivers: inv_inst/matrix_pool_reg[0][116][14]/Q, trans_inst/matrix_pool_reg[0][116][14]/Q, mult_inst/matrix_pool_reg[0][116][14]/Q, and add_inst/matrix_pool_reg[0][116][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][117][0] has multiple drivers: inv_inst/matrix_pool_reg[0][117][14]/Q, trans_inst/matrix_pool_reg[0][117][14]/Q, mult_inst/matrix_pool_reg[0][117][14]/Q, and add_inst/matrix_pool_reg[0][117][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][118][0] has multiple drivers: inv_inst/matrix_pool_reg[0][118][14]/Q, trans_inst/matrix_pool_reg[0][118][14]/Q, mult_inst/matrix_pool_reg[0][118][14]/Q, and add_inst/matrix_pool_reg[0][118][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][119][0] has multiple drivers: inv_inst/matrix_pool_reg[0][119][14]/Q, trans_inst/matrix_pool_reg[0][119][14]/Q, mult_inst/matrix_pool_reg[0][119][14]/Q, and add_inst/matrix_pool_reg[0][119][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][11][0] has multiple drivers: inv_inst/matrix_pool_reg[0][11][14]/Q, trans_inst/matrix_pool_reg[0][11][14]/Q, mult_inst/matrix_pool_reg[0][11][14]/Q, and add_inst/matrix_pool_reg[0][11][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][120][0] has multiple drivers: inv_inst/matrix_pool_reg[0][120][14]/Q, trans_inst/matrix_pool_reg[0][120][14]/Q, mult_inst/matrix_pool_reg[0][120][14]/Q, and add_inst/matrix_pool_reg[0][120][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][121][0] has multiple drivers: inv_inst/matrix_pool_reg[0][121][14]/Q, trans_inst/matrix_pool_reg[0][121][14]/Q, mult_inst/matrix_pool_reg[0][121][14]/Q, and add_inst/matrix_pool_reg[0][121][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][122][0] has multiple drivers: inv_inst/matrix_pool_reg[0][122][14]/Q, trans_inst/matrix_pool_reg[0][122][14]/Q, mult_inst/matrix_pool_reg[0][122][14]/Q, and add_inst/matrix_pool_reg[0][122][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][123][0] has multiple drivers: inv_inst/matrix_pool_reg[0][123][14]/Q, trans_inst/matrix_pool_reg[0][123][14]/Q, mult_inst/matrix_pool_reg[0][123][14]/Q, and add_inst/matrix_pool_reg[0][123][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][124][0] has multiple drivers: inv_inst/matrix_pool_reg[0][124][14]/Q, trans_inst/matrix_pool_reg[0][124][14]/Q, mult_inst/matrix_pool_reg[0][124][14]/Q, and add_inst/matrix_pool_reg[0][124][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][125][0] has multiple drivers: inv_inst/matrix_pool_reg[0][125][14]/Q, trans_inst/matrix_pool_reg[0][125][14]/Q, mult_inst/matrix_pool_reg[0][125][14]/Q, and add_inst/matrix_pool_reg[0][125][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][126][0] has multiple drivers: inv_inst/matrix_pool_reg[0][126][14]/Q, trans_inst/matrix_pool_reg[0][126][14]/Q, mult_inst/matrix_pool_reg[0][126][14]/Q, and add_inst/matrix_pool_reg[0][126][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][127][0] has multiple drivers: inv_inst/matrix_pool_reg[0][127][14]/Q, trans_inst/matrix_pool_reg[0][127][14]/Q, mult_inst/matrix_pool_reg[0][127][14]/Q, and add_inst/matrix_pool_reg[0][127][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][128][0] has multiple drivers: inv_inst/matrix_pool_reg[0][128][14]/Q, trans_inst/matrix_pool_reg[0][128][14]/Q, mult_inst/matrix_pool_reg[0][128][14]/Q, and add_inst/matrix_pool_reg[0][128][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][129][0] has multiple drivers: inv_inst/matrix_pool_reg[0][129][14]/Q, trans_inst/matrix_pool_reg[0][129][14]/Q, mult_inst/matrix_pool_reg[0][129][14]/Q, and add_inst/matrix_pool_reg[0][129][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][12][0] has multiple drivers: inv_inst/matrix_pool_reg[0][12][14]/Q, trans_inst/matrix_pool_reg[0][12][14]/Q, mult_inst/matrix_pool_reg[0][12][14]/Q, and add_inst/matrix_pool_reg[0][12][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][130][0] has multiple drivers: inv_inst/matrix_pool_reg[0][130][14]/Q, trans_inst/matrix_pool_reg[0][130][14]/Q, mult_inst/matrix_pool_reg[0][130][14]/Q, and add_inst/matrix_pool_reg[0][130][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][131][0] has multiple drivers: inv_inst/matrix_pool_reg[0][131][14]/Q, trans_inst/matrix_pool_reg[0][131][14]/Q, mult_inst/matrix_pool_reg[0][131][14]/Q, and add_inst/matrix_pool_reg[0][131][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][132][0] has multiple drivers: inv_inst/matrix_pool_reg[0][132][14]/Q, trans_inst/matrix_pool_reg[0][132][14]/Q, mult_inst/matrix_pool_reg[0][132][14]/Q, and add_inst/matrix_pool_reg[0][132][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][133][0] has multiple drivers: inv_inst/matrix_pool_reg[0][133][14]/Q, trans_inst/matrix_pool_reg[0][133][14]/Q, mult_inst/matrix_pool_reg[0][133][14]/Q, and add_inst/matrix_pool_reg[0][133][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][134][0] has multiple drivers: inv_inst/matrix_pool_reg[0][134][14]/Q, trans_inst/matrix_pool_reg[0][134][14]/Q, mult_inst/matrix_pool_reg[0][134][14]/Q, and add_inst/matrix_pool_reg[0][134][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][135][0] has multiple drivers: inv_inst/matrix_pool_reg[0][135][14]/Q, trans_inst/matrix_pool_reg[0][135][14]/Q, mult_inst/matrix_pool_reg[0][135][14]/Q, and add_inst/matrix_pool_reg[0][135][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][136][0] has multiple drivers: inv_inst/matrix_pool_reg[0][136][14]/Q, trans_inst/matrix_pool_reg[0][136][14]/Q, mult_inst/matrix_pool_reg[0][136][14]/Q, and add_inst/matrix_pool_reg[0][136][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][137][0] has multiple drivers: inv_inst/matrix_pool_reg[0][137][14]/Q, trans_inst/matrix_pool_reg[0][137][14]/Q, mult_inst/matrix_pool_reg[0][137][14]/Q, and add_inst/matrix_pool_reg[0][137][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][138][0] has multiple drivers: inv_inst/matrix_pool_reg[0][138][14]/Q, trans_inst/matrix_pool_reg[0][138][14]/Q, mult_inst/matrix_pool_reg[0][138][14]/Q, and add_inst/matrix_pool_reg[0][138][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][139][0] has multiple drivers: inv_inst/matrix_pool_reg[0][139][14]/Q, trans_inst/matrix_pool_reg[0][139][14]/Q, mult_inst/matrix_pool_reg[0][139][14]/Q, and add_inst/matrix_pool_reg[0][139][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][13][0] has multiple drivers: inv_inst/matrix_pool_reg[0][13][14]/Q, trans_inst/matrix_pool_reg[0][13][14]/Q, mult_inst/matrix_pool_reg[0][13][14]/Q, and add_inst/matrix_pool_reg[0][13][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][140][0] has multiple drivers: inv_inst/matrix_pool_reg[0][140][14]/Q, trans_inst/matrix_pool_reg[0][140][14]/Q, mult_inst/matrix_pool_reg[0][140][14]/Q, and add_inst/matrix_pool_reg[0][140][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][141][0] has multiple drivers: inv_inst/matrix_pool_reg[0][141][14]/Q, trans_inst/matrix_pool_reg[0][141][14]/Q, mult_inst/matrix_pool_reg[0][141][14]/Q, and add_inst/matrix_pool_reg[0][141][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][142][0] has multiple drivers: inv_inst/matrix_pool_reg[0][142][14]/Q, trans_inst/matrix_pool_reg[0][142][14]/Q, mult_inst/matrix_pool_reg[0][142][14]/Q, and add_inst/matrix_pool_reg[0][142][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][143][0] has multiple drivers: inv_inst/matrix_pool_reg[0][143][14]/Q, trans_inst/matrix_pool_reg[0][143][14]/Q, mult_inst/matrix_pool_reg[0][143][14]/Q, and add_inst/matrix_pool_reg[0][143][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][14][0] has multiple drivers: inv_inst/matrix_pool_reg[0][14][14]/Q, trans_inst/matrix_pool_reg[0][14][14]/Q, mult_inst/matrix_pool_reg[0][14][14]/Q, and add_inst/matrix_pool_reg[0][14][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][15][0] has multiple drivers: inv_inst/matrix_pool_reg[0][15][14]/Q, trans_inst/matrix_pool_reg[0][15][14]/Q, mult_inst/matrix_pool_reg[0][15][14]/Q, and add_inst/matrix_pool_reg[0][15][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][16][0] has multiple drivers: inv_inst/matrix_pool_reg[0][16][14]/Q, trans_inst/matrix_pool_reg[0][16][14]/Q, mult_inst/matrix_pool_reg[0][16][14]/Q, and add_inst/matrix_pool_reg[0][16][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][17][0] has multiple drivers: inv_inst/matrix_pool_reg[0][17][14]/Q, trans_inst/matrix_pool_reg[0][17][14]/Q, mult_inst/matrix_pool_reg[0][17][14]/Q, and add_inst/matrix_pool_reg[0][17][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][18][0] has multiple drivers: inv_inst/matrix_pool_reg[0][18][14]/Q, trans_inst/matrix_pool_reg[0][18][14]/Q, mult_inst/matrix_pool_reg[0][18][14]/Q, and add_inst/matrix_pool_reg[0][18][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][19][0] has multiple drivers: inv_inst/matrix_pool_reg[0][19][14]/Q, trans_inst/matrix_pool_reg[0][19][14]/Q, mult_inst/matrix_pool_reg[0][19][14]/Q, and add_inst/matrix_pool_reg[0][19][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][1][0] has multiple drivers: inv_inst/matrix_pool_reg[0][1][14]/Q, trans_inst/matrix_pool_reg[0][1][14]/Q, mult_inst/matrix_pool_reg[0][1][14]/Q, and add_inst/matrix_pool_reg[0][1][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][20][0] has multiple drivers: inv_inst/matrix_pool_reg[0][20][14]/Q, trans_inst/matrix_pool_reg[0][20][14]/Q, mult_inst/matrix_pool_reg[0][20][14]/Q, and add_inst/matrix_pool_reg[0][20][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][21][0] has multiple drivers: inv_inst/matrix_pool_reg[0][21][14]/Q, trans_inst/matrix_pool_reg[0][21][14]/Q, mult_inst/matrix_pool_reg[0][21][14]/Q, and add_inst/matrix_pool_reg[0][21][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][22][0] has multiple drivers: inv_inst/matrix_pool_reg[0][22][14]/Q, trans_inst/matrix_pool_reg[0][22][14]/Q, mult_inst/matrix_pool_reg[0][22][14]/Q, and add_inst/matrix_pool_reg[0][22][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][23][0] has multiple drivers: inv_inst/matrix_pool_reg[0][23][14]/Q, trans_inst/matrix_pool_reg[0][23][14]/Q, mult_inst/matrix_pool_reg[0][23][14]/Q, and add_inst/matrix_pool_reg[0][23][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][24][0] has multiple drivers: inv_inst/matrix_pool_reg[0][24][14]/Q, trans_inst/matrix_pool_reg[0][24][14]/Q, mult_inst/matrix_pool_reg[0][24][14]/Q, and add_inst/matrix_pool_reg[0][24][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][25][0] has multiple drivers: inv_inst/matrix_pool_reg[0][25][14]/Q, trans_inst/matrix_pool_reg[0][25][14]/Q, mult_inst/matrix_pool_reg[0][25][14]/Q, and add_inst/matrix_pool_reg[0][25][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][26][0] has multiple drivers: inv_inst/matrix_pool_reg[0][26][14]/Q, trans_inst/matrix_pool_reg[0][26][14]/Q, mult_inst/matrix_pool_reg[0][26][14]/Q, and add_inst/matrix_pool_reg[0][26][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][27][0] has multiple drivers: inv_inst/matrix_pool_reg[0][27][14]/Q, trans_inst/matrix_pool_reg[0][27][14]/Q, mult_inst/matrix_pool_reg[0][27][14]/Q, and add_inst/matrix_pool_reg[0][27][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][28][0] has multiple drivers: inv_inst/matrix_pool_reg[0][28][14]/Q, trans_inst/matrix_pool_reg[0][28][14]/Q, mult_inst/matrix_pool_reg[0][28][14]/Q, and add_inst/matrix_pool_reg[0][28][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][29][0] has multiple drivers: inv_inst/matrix_pool_reg[0][29][14]/Q, trans_inst/matrix_pool_reg[0][29][14]/Q, mult_inst/matrix_pool_reg[0][29][14]/Q, and add_inst/matrix_pool_reg[0][29][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][2][0] has multiple drivers: inv_inst/matrix_pool_reg[0][2][14]/Q, trans_inst/matrix_pool_reg[0][2][14]/Q, mult_inst/matrix_pool_reg[0][2][14]/Q, and add_inst/matrix_pool_reg[0][2][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][30][0] has multiple drivers: inv_inst/matrix_pool_reg[0][30][14]/Q, trans_inst/matrix_pool_reg[0][30][14]/Q, mult_inst/matrix_pool_reg[0][30][14]/Q, and add_inst/matrix_pool_reg[0][30][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][31][0] has multiple drivers: inv_inst/matrix_pool_reg[0][31][14]/Q, trans_inst/matrix_pool_reg[0][31][14]/Q, mult_inst/matrix_pool_reg[0][31][14]/Q, and add_inst/matrix_pool_reg[0][31][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][32][0] has multiple drivers: inv_inst/matrix_pool_reg[0][32][14]/Q, trans_inst/matrix_pool_reg[0][32][14]/Q, mult_inst/matrix_pool_reg[0][32][14]/Q, and add_inst/matrix_pool_reg[0][32][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][33][0] has multiple drivers: inv_inst/matrix_pool_reg[0][33][14]/Q, trans_inst/matrix_pool_reg[0][33][14]/Q, mult_inst/matrix_pool_reg[0][33][14]/Q, and add_inst/matrix_pool_reg[0][33][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][34][0] has multiple drivers: inv_inst/matrix_pool_reg[0][34][14]/Q, trans_inst/matrix_pool_reg[0][34][14]/Q, mult_inst/matrix_pool_reg[0][34][14]/Q, and add_inst/matrix_pool_reg[0][34][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][35][0] has multiple drivers: inv_inst/matrix_pool_reg[0][35][14]/Q, trans_inst/matrix_pool_reg[0][35][14]/Q, mult_inst/matrix_pool_reg[0][35][14]/Q, and add_inst/matrix_pool_reg[0][35][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][36][0] has multiple drivers: inv_inst/matrix_pool_reg[0][36][14]/Q, trans_inst/matrix_pool_reg[0][36][14]/Q, mult_inst/matrix_pool_reg[0][36][14]/Q, and add_inst/matrix_pool_reg[0][36][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][37][0] has multiple drivers: inv_inst/matrix_pool_reg[0][37][14]/Q, trans_inst/matrix_pool_reg[0][37][14]/Q, mult_inst/matrix_pool_reg[0][37][14]/Q, and add_inst/matrix_pool_reg[0][37][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][38][0] has multiple drivers: inv_inst/matrix_pool_reg[0][38][14]/Q, trans_inst/matrix_pool_reg[0][38][14]/Q, mult_inst/matrix_pool_reg[0][38][14]/Q, and add_inst/matrix_pool_reg[0][38][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][39][0] has multiple drivers: inv_inst/matrix_pool_reg[0][39][14]/Q, trans_inst/matrix_pool_reg[0][39][14]/Q, mult_inst/matrix_pool_reg[0][39][14]/Q, and add_inst/matrix_pool_reg[0][39][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][3][0] has multiple drivers: inv_inst/matrix_pool_reg[0][3][14]/Q, trans_inst/matrix_pool_reg[0][3][14]/Q, mult_inst/matrix_pool_reg[0][3][14]/Q, and add_inst/matrix_pool_reg[0][3][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][40][0] has multiple drivers: inv_inst/matrix_pool_reg[0][40][14]/Q, trans_inst/matrix_pool_reg[0][40][14]/Q, mult_inst/matrix_pool_reg[0][40][14]/Q, and add_inst/matrix_pool_reg[0][40][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][41][0] has multiple drivers: inv_inst/matrix_pool_reg[0][41][14]/Q, trans_inst/matrix_pool_reg[0][41][14]/Q, mult_inst/matrix_pool_reg[0][41][14]/Q, and add_inst/matrix_pool_reg[0][41][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][42][0] has multiple drivers: inv_inst/matrix_pool_reg[0][42][14]/Q, trans_inst/matrix_pool_reg[0][42][14]/Q, mult_inst/matrix_pool_reg[0][42][14]/Q, and add_inst/matrix_pool_reg[0][42][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][43][0] has multiple drivers: inv_inst/matrix_pool_reg[0][43][14]/Q, trans_inst/matrix_pool_reg[0][43][14]/Q, mult_inst/matrix_pool_reg[0][43][14]/Q, and add_inst/matrix_pool_reg[0][43][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][44][0] has multiple drivers: inv_inst/matrix_pool_reg[0][44][14]/Q, trans_inst/matrix_pool_reg[0][44][14]/Q, mult_inst/matrix_pool_reg[0][44][14]/Q, and add_inst/matrix_pool_reg[0][44][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][45][0] has multiple drivers: inv_inst/matrix_pool_reg[0][45][14]/Q, trans_inst/matrix_pool_reg[0][45][14]/Q, mult_inst/matrix_pool_reg[0][45][14]/Q, and add_inst/matrix_pool_reg[0][45][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][46][0] has multiple drivers: inv_inst/matrix_pool_reg[0][46][14]/Q, trans_inst/matrix_pool_reg[0][46][14]/Q, mult_inst/matrix_pool_reg[0][46][14]/Q, and add_inst/matrix_pool_reg[0][46][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][47][0] has multiple drivers: inv_inst/matrix_pool_reg[0][47][14]/Q, trans_inst/matrix_pool_reg[0][47][14]/Q, mult_inst/matrix_pool_reg[0][47][14]/Q, and add_inst/matrix_pool_reg[0][47][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][48][0] has multiple drivers: inv_inst/matrix_pool_reg[0][48][14]/Q, trans_inst/matrix_pool_reg[0][48][14]/Q, mult_inst/matrix_pool_reg[0][48][14]/Q, and add_inst/matrix_pool_reg[0][48][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][49][0] has multiple drivers: inv_inst/matrix_pool_reg[0][49][14]/Q, trans_inst/matrix_pool_reg[0][49][14]/Q, mult_inst/matrix_pool_reg[0][49][14]/Q, and add_inst/matrix_pool_reg[0][49][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][4][0] has multiple drivers: inv_inst/matrix_pool_reg[0][4][14]/Q, trans_inst/matrix_pool_reg[0][4][14]/Q, mult_inst/matrix_pool_reg[0][4][14]/Q, and add_inst/matrix_pool_reg[0][4][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][50][0] has multiple drivers: inv_inst/matrix_pool_reg[0][50][14]/Q, trans_inst/matrix_pool_reg[0][50][14]/Q, mult_inst/matrix_pool_reg[0][50][14]/Q, and add_inst/matrix_pool_reg[0][50][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][51][0] has multiple drivers: inv_inst/matrix_pool_reg[0][51][14]/Q, trans_inst/matrix_pool_reg[0][51][14]/Q, mult_inst/matrix_pool_reg[0][51][14]/Q, and add_inst/matrix_pool_reg[0][51][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][52][0] has multiple drivers: inv_inst/matrix_pool_reg[0][52][14]/Q, trans_inst/matrix_pool_reg[0][52][14]/Q, mult_inst/matrix_pool_reg[0][52][14]/Q, and add_inst/matrix_pool_reg[0][52][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][53][0] has multiple drivers: inv_inst/matrix_pool_reg[0][53][14]/Q, trans_inst/matrix_pool_reg[0][53][14]/Q, mult_inst/matrix_pool_reg[0][53][14]/Q, and add_inst/matrix_pool_reg[0][53][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][54][0] has multiple drivers: inv_inst/matrix_pool_reg[0][54][14]/Q, trans_inst/matrix_pool_reg[0][54][14]/Q, mult_inst/matrix_pool_reg[0][54][14]/Q, and add_inst/matrix_pool_reg[0][54][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][55][0] has multiple drivers: inv_inst/matrix_pool_reg[0][55][14]/Q, trans_inst/matrix_pool_reg[0][55][14]/Q, mult_inst/matrix_pool_reg[0][55][14]/Q, and add_inst/matrix_pool_reg[0][55][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][56][0] has multiple drivers: inv_inst/matrix_pool_reg[0][56][14]/Q, trans_inst/matrix_pool_reg[0][56][14]/Q, mult_inst/matrix_pool_reg[0][56][14]/Q, and add_inst/matrix_pool_reg[0][56][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][57][0] has multiple drivers: inv_inst/matrix_pool_reg[0][57][14]/Q, trans_inst/matrix_pool_reg[0][57][14]/Q, mult_inst/matrix_pool_reg[0][57][14]/Q, and add_inst/matrix_pool_reg[0][57][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][58][0] has multiple drivers: inv_inst/matrix_pool_reg[0][58][14]/Q, trans_inst/matrix_pool_reg[0][58][14]/Q, mult_inst/matrix_pool_reg[0][58][14]/Q, and add_inst/matrix_pool_reg[0][58][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][59][0] has multiple drivers: inv_inst/matrix_pool_reg[0][59][14]/Q, trans_inst/matrix_pool_reg[0][59][14]/Q, mult_inst/matrix_pool_reg[0][59][14]/Q, and add_inst/matrix_pool_reg[0][59][14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net trans_inst/matrix_pool[0][5][0] has multiple drivers: inv_inst/matrix_pool_reg[0][5][14]/Q, trans_inst/matrix_pool_reg[0][5][14]/Q, mult_inst/matrix_pool_reg[0][5][14]/Q, and add_inst/matrix_pool_reg[0][5][14]/Q.
+INFO: [Common 17-14] Message 'DRC MDRV-1' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Project 1-461] DRC finished with 4608 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2104.805 ; gain = 49.832
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 0 Critical Warnings and 101 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 26 00:22:04 2025...

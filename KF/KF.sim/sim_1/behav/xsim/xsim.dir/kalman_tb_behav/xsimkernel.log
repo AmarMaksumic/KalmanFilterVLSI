@@ -2,3 +2,6 @@ Running: xsim.dir/kalman_tb_behav/xsimk.exe -simmode gui -wdb kalman_tb_behav.wd
 Design successfully loaded
 Design Loading Memory Usage: 28632 KB (Peak: 28632 KB)
 Design Loading CPU Usage: 624 ms
+Simulation completed
+Simulation Memory Usage: 30304 KB (Peak: 30304 KB)
+Simulation CPU Usage: 1280 ms

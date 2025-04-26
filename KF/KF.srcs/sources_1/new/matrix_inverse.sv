@@ -36,10 +36,10 @@ module matrix_inverse #(
                     done <= 1;
                 end
             end
-            if (!computing && done) begin
-                $display("[RESULT] matrix_inverse output (index %0d):", index_out);
-                for (int p = 0; p < size * size; p++) $display("%0d", matrix_pool[index_out][p]);
-            end
+//            if (!computing && done) begin
+//                $display("[RESULT] matrix_inverse output (index %0d):", index_out);
+//                for (int p = 0; p < size * size; p++) $display("%0d", matrix_pool[index_out][p]);
+//            end
         end
     end
 

@@ -39,10 +39,10 @@ module matrix_transpose #(
                     done <= 1;
                 end
             end
-            if (!computing && done) begin
-                $display("[RESULT] matrix_transpose output (index %0d):", index_out);
-                for (int p = 0; p < rows * cols; p++) $display("%0d", matrix_pool[index_out][p]);
-            end
+//            if (!computing && done) begin
+//                $display("[RESULT] matrix_transpose output (index %0d):", index_out);
+//                for (int p = 0; p < rows * cols; p++) $display("%0d", matrix_pool[index_out][p]);
+//            end
         end
     end
 

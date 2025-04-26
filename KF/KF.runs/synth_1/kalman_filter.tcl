@@ -57,7 +57,7 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xcu200-fsgd2104-2-e
+create_project -in_memory -part xczu4ev-fbvb900-2-i
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -71,11 +71,12 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
+  C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv
+  C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv
   C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_add.sv
   C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_inverse.sv
-  C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_mult.sv
+  C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_sub.sv
   C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/matrix_transpose.sv
-  C:/code/KalmanFilterVLSI/KF/KF.srcs/sources_1/new/kalman_filter.sv
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -87,10 +88,12 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental C:/code/KalmanFilterVLSI/KF/KF.srcs/utils_1/imports/synth_1/kalman_filter.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top kalman_filter -part xcu200-fsgd2104-2-e
+synth_design -top kalman_filter -part xczu4ev-fbvb900-2-i
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"

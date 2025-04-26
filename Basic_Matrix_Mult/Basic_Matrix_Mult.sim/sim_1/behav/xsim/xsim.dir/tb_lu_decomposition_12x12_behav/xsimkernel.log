@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_lu_decomposition_12x12_behav/xsimk.exe -simmode gui -wdb tb_lu_decomposition_12x12_behav.wdb -simrunnum 0 -socket 58035
+Design successfully loaded
+Design Loading Memory Usage: 29480 KB (Peak: 29480 KB)
+Design Loading CPU Usage: 1171 ms
